@@ -1,0 +1,90 @@
+# Factory Droid
+
+Edit `~/.factory/config.json`.
+
+config.json:
+
+```json
+{
+  "custom_models": [
+    {
+      "model": "gemini-2.5-pro",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "base_url": "https://ai.cobitux.com",
+      "api_key": "sk-dummy",
+      "provider": "anthropic"
+    },
+    {
+      "model": "claude-opus-4-1-20250805",
+      "base_url": "https://ai.cobitux.com",
+      "api_key": "sk-dummy",
+      "provider": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-4-20250514",
+      "base_url": "https://ai.cobitux.com",
+      "api_key": "sk-dummy",
+      "provider": "anthropic"
+    },
+    {
+      "model": "gpt-5",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5(minimal)",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5(low)",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5(medium)",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5(high)",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5-codex",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5-codex(low)",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5-codex(medium)",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    },
+    {
+      "model": "gpt-5-codex(high)",
+      "base_url": "https://ai.cobitux.com/v1",
+      "api_key": "sk-dummy",
+      "provider": "openai"
+    }
+  ]
+}
+```
